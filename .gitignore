@@ -1,0 +1,32 @@
+# Environnement Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement de développement
+.env
+.vscode/
+.idea/
+
+# Fichiers de données
+data/logs/*
+data/conversations/*
+data/reports/*
+!data/logs/.gitkeep
+!data/conversations/.gitkeep
+!data/reports/.gitkeep
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Fichiers de distribution
+dist/
+build/
+*.egg-info/
